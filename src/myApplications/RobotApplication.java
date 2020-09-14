@@ -1,4 +1,4 @@
-package application;
+package myApplications;
 
 
 import com.kuka.roboticsAPI.applicationModel.RoboticsAPIApplication;

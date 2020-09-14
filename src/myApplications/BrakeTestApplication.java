@@ -1,4 +1,4 @@
-package application;
+package myApplications;
 
 import static com.kuka.roboticsAPI.motionModel.BasicMotions.ptpHome;
 
