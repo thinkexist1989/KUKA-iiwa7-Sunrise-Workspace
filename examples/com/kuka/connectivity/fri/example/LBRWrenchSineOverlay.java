@@ -35,7 +35,7 @@ public class LBRWrenchSineOverlay extends RoboticsAPIApplication
         // **********************************************************************
         // *** change next line to the FRIClient's IP address                 ***
         // **********************************************************************
-        _clientName = "127.0.0.1";
+        _clientName = "172.31.1.100";
     }
 
     @Override
