@@ -68,7 +68,8 @@ public class Baioverlay extends RoboticsAPIApplication
        // _lbr.move(ptp(Math.toRadians(0), .0, .0, Math.toRadians(0), .0, Math.toRadians(0), .0).setJointVelocityRel(0.2));
         //_lbr.move(ptp(getApplicationData().getFrame("/start")).setJointVelocityRel(0.2));
         // async move with overlay ...
-        _lbr.move(ptp(.0, .0, .0, .0, .0, 0.0, .0).setJointVelocityRel(0.2));
+//        _lbr.move(ptp(.0, .0, .0, .0, .0, 0.0, .0).setJointVelocityRel(0.2));
+        _lbr.move(ptp(0, Math.toRadians(10), 0, Math.toRadians(-80), 0, Math.toRadians(90), 0).setJointVelocityRel(0.2));
         
        /* _lbr.moveAsync(ptp(Math.toRadians(-90), .0, .0, Math.toRadians(90), .0, Math.toRadians(-90), .0)
          
