@@ -68,7 +68,7 @@ public class LBRTorqueSineOverlay extends RoboticsAPIApplication
         getLogger().info("FRI connection established.");
 
         // move to start pose
-        _lbr.move(ptp(Math.toRadians(90), Math.toRadians(-60), .0, Math.toRadians(60), .0, Math.toRadians(-60), .0));
+        _lbr.move(ptp(Math.toRadians(90), Math.toRadians(-60), .0, Math.toRadians(60), .0, Math.toRadians(-60), .0).setJointVelocityRel(0.25));
 
         // start PositionHold with overlay
         JointImpedanceControlMode ctrMode = new JointImpedanceControlMode(200, 200, 200, 200, 200, 200, 200);
