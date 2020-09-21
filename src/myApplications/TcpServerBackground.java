@@ -22,7 +22,7 @@ import com.kuka.roboticsAPI.controllerModel.Controller;
  * @see UseRoboticsAPIContext
  * 
  */
-public class TcpServer extends RoboticsAPIBackgroundTask {
+public class TcpServerBackground extends RoboticsAPIBackgroundTask {
 	Controller kUKA_Sunrise_Cabinet_1;
 	
 	ServerSocket ss = null;
@@ -36,7 +36,7 @@ public class TcpServer extends RoboticsAPIBackgroundTask {
 			getLogger().info("Server is running on 30002 port");
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -56,7 +56,7 @@ public class TcpServer extends RoboticsAPIBackgroundTask {
 				t.start();
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
