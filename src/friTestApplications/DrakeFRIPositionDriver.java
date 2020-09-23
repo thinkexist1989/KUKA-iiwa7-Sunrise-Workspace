@@ -4,8 +4,6 @@ package friTestApplications;
 
 //import static com.kuka.roboticsAPI.motionModel.BasicMotions.ptp;
 
-import static com.kuka.roboticsAPI.motionModel.BasicMotions.ptp;
-
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
@@ -84,7 +82,7 @@ public class DrakeFRIPositionDriver extends RoboticsAPIApplication
         FRIConfiguration friConfiguration = FRIConfiguration.createRemoteConfiguration(_lbr, _clientName);
         friConfiguration.setSendPeriodMilliSec(5);
         friConfiguration.setPortOnRemote(_clientPort);
-        _lbr.move(ptp(.0, .0, .0, .0, .0, 0.0, .0).setJointVelocityRel(0.2));
+//        _lbr.move(ptp(.0, .0, .0, .0, .0, 0.0, .0).setJointVelocityRel(0.2));
         while (true) {
           doFRISession(friConfiguration);
         }

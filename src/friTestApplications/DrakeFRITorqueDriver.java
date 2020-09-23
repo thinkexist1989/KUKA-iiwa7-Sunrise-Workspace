@@ -85,7 +85,7 @@ public class DrakeFRITorqueDriver extends RoboticsAPIApplication
         FRIConfiguration friConfiguration = FRIConfiguration.createRemoteConfiguration(_lbr, _clientName);
         friConfiguration.setSendPeriodMilliSec(5);
         friConfiguration.setPortOnRemote(_clientPort);
-        _lbr.move(ptp(.0, .0, .0, .0, .0, 0.0, .0).setJointVelocityRel(0.2));
+//        _lbr.move(ptp(.0, .0, .0, .0, .0, 0.0, .0).setJointVelocityRel(0.2));
         while (true) {
           doFRISession(friConfiguration);
         }
