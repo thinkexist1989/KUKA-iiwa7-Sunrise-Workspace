@@ -1,7 +1,7 @@
 package myApplications;
 
 
-import com.kuka.common.ThreadUtil;
+//import com.kuka.common.ThreadUtil;
 import com.kuka.generated.ioAccess.MediaFlangeIOGroup;
 import com.kuka.roboticsAPI.applicationModel.RoboticsAPIApplication;
 import static com.kuka.roboticsAPI.motionModel.BasicMotions.*;
