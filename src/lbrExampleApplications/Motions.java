@@ -21,7 +21,7 @@ public class Motions extends RoboticsAPIApplication {
 	final static double offsetAxis2And4=Math.toRadians(20);
 	final static double offsetAxis4And6=Math.toRadians(-40);
 	double[] loopCenterPosition= new double[]{
-			0, offsetAxis2And4, 0, offsetAxis2And4 +offsetAxis4And6 -Math.toRadians(90), 0, offsetAxis4And6,Math.toRadians(90)};
+			0, offsetAxis2And4, 0, offsetAxis2And4 +offsetAxis4And6 -Math.toRadians(90), 0, offsetAxis4And6, Math.toRadians(90)};
 
 
 	private final static String informationText=
