@@ -59,8 +59,8 @@ public class RotateAroundOnePoint extends RoboticsAPIApplication {
 			
 			Frame pos = lbr.getCurrentCartesianPosition(lbr.getFlange());
 			
-//			pos.setBetaRad(r.nextDouble()/2.0);
-			pos.setGammaRad(r.nextDouble()/2.0);
+			pos.setBetaRad(r.nextDouble()/2.0);
+//			pos.setGammaRad(r.nextDouble()/2.0); //在这个位形下无法绕x轴转动
 			
 			lbr.move(lin(pos).setJointVelocityRel(0.25));
 			led.setLEDBlue(!b);
