@@ -32,6 +32,11 @@ public class RotateAroundOnePoint extends RoboticsAPIApplication {
 	private Controller cabinet;
 	private LBR lbr;
 	private MediaFlangeIOGroup led;
+	
+	final static double offsetAxis2And4=Math.toRadians(20);
+	final static double offsetAxis4And6=Math.toRadians(-40);
+	double[] loopCenterPosition= new double[]{
+			0, offsetAxis2And4, 0, offsetAxis2And4 +offsetAxis4And6 -Math.toRadians(90), 0, offsetAxis4And6, Math.toRadians(90)};
 
 	public void initialize() {
 		cabinet = getController("KUKA_Sunrise_Cabinet_1");
@@ -42,7 +47,7 @@ public class RotateAroundOnePoint extends RoboticsAPIApplication {
 
 	public void run() {
 		//Move to special point
-		lbr.move(ptp(0, Math.toRadians(10), 0, Math.toRadians(-80), 0, Math.toRadians(90), 0).setJointVelocityRel(0.25));
+		lbr.move(ptp(loopCenterPosition).setJointVelocityRel(0.25));
 		
 		Random r = new Random();
 		
