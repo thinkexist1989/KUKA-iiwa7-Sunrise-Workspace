@@ -53,7 +53,8 @@ public class RotateAroundOnePoint extends RoboticsAPIApplication {
 //			double alpha = r.nextDouble()*2; // 生成[0,1.0]区间的小数
 			
 			Frame pos = lbr.getCurrentCartesianPosition(lbr.getFlange());
-			pos.setAlphaRad(r.nextDouble()/2.0);
+			
+			
 			pos.setBetaRad(r.nextDouble()/2.0);
 			pos.setGammaRad(r.nextDouble()/2.0);
 			
