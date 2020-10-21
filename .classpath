@@ -3,6 +3,33 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="examples"/>
+	<classpathentry kind="lib" path="ROSJavaLib/actionlib_msgs-1.11.8.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/apache_xmlrpc_client-0.1.6.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/apache_xmlrpc_common-0.1.6.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/apache_xmlrpc_server-0.1.6.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.codec-1.3.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.httpclient-3.1.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.io-1.4.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.lang-2.4.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.net-2.0.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/dnsjava-2.1.1.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/geometry_msgs-1.11.8.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/gradle_plugins-0.1.22.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/iiwa_msgs-1.8.0.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/junit-3.8.2.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/message_generation-0.1.22.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/nav_msgs-1.11.8.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/netty-3.5.2.Final.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/rosgraph_msgs-1.11.1.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/rosjava-0.1.6.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/sensor_msgs-1.11.8.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/std_msgs-0.5.9.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/tf2_msgs-0.5.12.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/ws-commons-util-1.0.1.jar"/>
 	<classpathentry kind="lib" path="KUKAJavaLib/roboticsAPI.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:platform:/resource/IIWA7/KUKAJavaLib/roboticsAPI-javadoc.zip!/"/>
@@ -59,32 +86,5 @@
 			<attribute name="javadoc_location" value="jar:platform:/resource/IIWA7/KUKAJavaLib/roboticsAPI.smartServoLIN-javadoc.zip!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="ROSJavaLib/actionlib_msgs-1.11.8.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/apache_xmlrpc_client-0.1.6.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/apache_xmlrpc_common-0.1.6.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/apache_xmlrpc_server-0.1.6.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.codec-1.3.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.httpclient-3.1.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.io-1.4.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.lang-2.4.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/com.springsource.org.apache.commons.net-2.0.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/commons-pool-1.6.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/dnsjava-2.1.1.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/geometry_msgs-1.11.8.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/gradle_plugins-0.1.22.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/guava-18.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/iiwa_msgs-1.8.0.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/jsr305-1.3.9.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/junit-3.8.2.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/message_generation-0.1.22.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/nav_msgs-1.11.8.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/netty-3.5.2.Final.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/rosgraph_msgs-1.11.1.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/rosjava-0.1.6.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/sensor_msgs-1.11.8.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/std_msgs-0.5.9.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/tf2_msgs-0.5.12.jar"/>
-	<classpathentry kind="lib" path="ROSJavaLib/ws-commons-util-1.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
