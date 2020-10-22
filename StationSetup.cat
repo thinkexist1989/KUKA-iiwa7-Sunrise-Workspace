@@ -83,7 +83,7 @@
             <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/PdsFirmwareUpdate" selectedVersion="1" usage="Feature"/>
             <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/PlatformAdapter" selectedVersion="1" usage="Library"/>
             <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/PowerManagementService" selectedVersion="1" usage="Library"/>
-            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/ProfinetSupport" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="false" installItem="false" installedVersion="NONE" itemPath="com.kuka/ProfinetSupport" selectedVersion="NONE" usage="Feature"/>
             <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.1.0.14" itemPath="com.kuka/Publishing" selectedVersion="1.1.0.14" usage="Library"/>
             <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/RealtimePTPSupport" selectedVersion="1" usage="Library"/>
             <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/Safety" selectedVersion="1" usage="Library"/>
