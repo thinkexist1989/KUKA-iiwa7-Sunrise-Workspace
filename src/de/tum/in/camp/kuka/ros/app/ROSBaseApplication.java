@@ -84,7 +84,7 @@ import de.tum.in.camp.kuka.ros.Logger;
  * configuration, and publishing the current state of the robot.
  */
 public abstract class ROSBaseApplication extends RoboticsAPIApplication {
-
+      
   protected LBR robot = null;
   protected Tool tool = null;
   protected String toolFrameID = "";
