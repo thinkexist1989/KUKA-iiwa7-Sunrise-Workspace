@@ -81,5 +81,6 @@
 	<classpathentry kind="lib" path="ROSJavaLib/tf2_msgs-0.5.12.jar"/>
 	<classpathentry kind="lib" path="ROSJavaLib/vecmath-1.5.2.jar"/>
 	<classpathentry kind="lib" path="ROSJavaLib/ws-commons-util-1.0.1.jar"/>
+	<classpathentry kind="lib" path="ROSJavaLib/xml-apis-1.0.b2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
