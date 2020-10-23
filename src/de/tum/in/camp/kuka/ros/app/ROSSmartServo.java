@@ -180,7 +180,7 @@ public class ROSSmartServo extends ROSBaseApplication {
               throws ServiceException {
             controlModeLock.lock();
             try {
-              SpeedLimits.setOverrideReduction(req.getOverrideReduction(), true);
+              SpeedLimits.setOverrideRecution(req.getOverrideReduction(), true);
               res.setSuccess(true);
             }
             catch (Exception e) {

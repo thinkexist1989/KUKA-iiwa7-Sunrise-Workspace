@@ -27,9 +27,8 @@
 
 package de.tum.in.camp.kuka.ros;
 
-import com.kuka.roboticsAPI.motionModel.IServoOnGoalReachedEvent;
-
 //import com.kuka.connectivity.motionModel.smartServo.IServoOnGoalReachedEvent;
+import  com.kuka.roboticsAPI.motionModel.IServoOnGoalReachedEvent;
 
 public class GoalReachedEventListener implements IServoOnGoalReachedEvent {
 

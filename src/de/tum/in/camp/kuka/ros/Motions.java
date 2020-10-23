@@ -35,7 +35,10 @@ import iiwa_msgs.SplineSegment;
 import geometry_msgs.PoseStamped;
 
 //import com.kuka.connectivity.motionModel.smartServo.SmartServo;
+import com.kuka.roboticsAPI.motionModel.SmartServo;
+
 //import com.kuka.connectivity.motionModel.smartServoLIN.SmartServoLIN;
+import com.kuka.roboticsAPI.motionModel.SmartServoLIN;
 import com.kuka.roboticsAPI.deviceModel.JointPosition;
 import com.kuka.roboticsAPI.deviceModel.LBR;
 import com.kuka.roboticsAPI.deviceModel.LBRE1Redundancy;
@@ -45,8 +48,6 @@ import com.kuka.roboticsAPI.geometricModel.redundancy.IRedundancyCollection;
 import com.kuka.roboticsAPI.motionModel.CartesianPTP;
 import com.kuka.roboticsAPI.motionModel.LIN;
 import com.kuka.roboticsAPI.motionModel.PTP;
-import com.kuka.roboticsAPI.motionModel.SmartServo;
-import com.kuka.roboticsAPI.motionModel.SmartServoLIN;
 import com.kuka.roboticsAPI.motionModel.Spline;
 import com.kuka.roboticsAPI.motionModel.SplineMotionCP;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.IMotionControlMode;

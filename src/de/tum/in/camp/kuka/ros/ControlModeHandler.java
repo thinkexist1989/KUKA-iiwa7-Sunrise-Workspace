@@ -29,9 +29,12 @@ package de.tum.in.camp.kuka.ros;
 
 import com.kuka.common.ThreadUtil;
 //import com.kuka.connectivity.motionModel.smartServo.ServoMotion;
+import com.kuka.roboticsAPI.motionModel.ServoMotion;
 //import com.kuka.connectivity.motionModel.smartServo.SmartServo;
+import  com.kuka.roboticsAPI.motionModel.SmartServo;
 //import com.kuka.connectivity.motionModel.smartServoLIN.SmartServoLIN;
-import com.kuka.roboticsAPI.applicationModel.tasks.ITaskLogger;
+import  com.kuka.roboticsAPI.motionModel.SmartServoLIN;
+
 import com.kuka.roboticsAPI.controllerModel.sunrise.SunriseExecutionService;
 import com.kuka.roboticsAPI.deviceModel.LBR;
 import com.kuka.roboticsAPI.geometricModel.CartDOF;
@@ -39,15 +42,13 @@ import com.kuka.roboticsAPI.geometricModel.ObjectFrame;
 import com.kuka.roboticsAPI.geometricModel.Tool;
 import com.kuka.roboticsAPI.geometricModel.Workpiece;
 import com.kuka.roboticsAPI.geometricModel.World;
-import com.kuka.roboticsAPI.motionModel.ServoMotion;
-import com.kuka.roboticsAPI.motionModel.SmartServo;
-import com.kuka.roboticsAPI.motionModel.SmartServoLIN;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.CartesianImpedanceControlMode;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.CartesianSineImpedanceControlMode;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.IMotionControlMode;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.JointImpedanceControlMode;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.PositionControlMode;
 //import com.kuka.task.ITaskLogger;
+import  com.kuka.roboticsAPI.applicationModel.tasks.ITaskLogger;
 
 public class ControlModeHandler {
 

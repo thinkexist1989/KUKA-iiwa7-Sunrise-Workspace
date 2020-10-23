@@ -28,10 +28,10 @@
 package de.tum.in.camp.kuka.ros;
 
 //import com.kuka.connectivity.motionModel.smartServo.SmartServo;
-//import com.kuka.connectivity.motionModel.smartServoLIN.SmartServoLIN;
-import com.kuka.roboticsAPI.applicationModel.IApplicationControl;
 import com.kuka.roboticsAPI.motionModel.SmartServo;
+//import com.kuka.connectivity.motionModel.smartServoLIN.SmartServoLIN;
 import com.kuka.roboticsAPI.motionModel.SmartServoLIN;
+import com.kuka.roboticsAPI.applicationModel.IApplicationControl;
 import com.kuka.roboticsAPI.motionModel.SplineMotionCP;
 import com.kuka.roboticsAPI.motionModel.SplineMotionJP;
 
@@ -211,7 +211,7 @@ public class SpeedLimits {
     Logger.debug("PTP maxOrientationJerk: " + ptp_maxOrientationJerk);
   }
 
-  public static void setOverrideReduction(double override, boolean ramp) {
+  public static void setOverrideRecution(double override, boolean ramp) {
     if (override < 0.0) {
       SpeedLimits.overrideReduction = 0.0;
     }

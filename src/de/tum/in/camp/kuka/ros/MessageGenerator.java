@@ -40,12 +40,14 @@ import org.ros.node.NodeConfiguration;
 import org.ros.time.TimeProvider;
 
 //import com.kuka.connectivity.motionModel.smartServo.SmartServo;
+import com.kuka.roboticsAPI.motionModel.SmartServo;
+
+
 import com.kuka.roboticsAPI.deviceModel.LBR;
 import com.kuka.roboticsAPI.deviceModel.LBRE1Redundancy;
 import com.kuka.roboticsAPI.geometricModel.Frame;
 import com.kuka.roboticsAPI.geometricModel.ObjectFrame;
 import com.kuka.roboticsAPI.geometricModel.math.Transformation;
-import com.kuka.roboticsAPI.motionModel.SmartServo;
 import com.kuka.roboticsAPI.motionModel.controlModeModel.JointImpedanceControlMode;
 import com.kuka.roboticsAPI.sensorModel.ForceSensorData;
 
