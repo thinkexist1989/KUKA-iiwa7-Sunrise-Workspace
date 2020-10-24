@@ -27,6 +27,14 @@
             </additionalInformation>
         </frame>
     </world>
+    <objectTemplates>
+        <toolTemplate class="" name="EEG_EMG_TCP">
+            <additionalInformation>
+                <info key="Comment" type="java.lang.String" value="Experiment for EEG/EMG Impdence Control"/>
+            </additionalInformation>
+            <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="0.0" cogY="0.0" cogZ="0.0" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.0"/>
+        </toolTemplate>
+    </objectTemplates>
     <processDataContainer>
         <processData dataType="java.lang.String" defaultValue="iiwa" displayName="Robot Name" editableOnHmi="true" id="robot_name" value="iiwa"/>
         <processData dataType="java.lang.String" defaultValue="172.31.1.150" displayName="ROS Master IP" editableOnHmi="true" id="master_ip" value="172.31.1.150"/>
