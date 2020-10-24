@@ -2,6 +2,30 @@
 <RoboticsAPIData version="3">
     <world>
         <gravitation x="0.0" y="0.0" z="9.81"/>
+        <frame name="P1">
+            <transformation a="0.0" b="0.0" c="0.0" x="0.0" y="0.0" z="0.0"/>
+            <additionalInformation>
+                <info key="LastModificationTime" type="java.lang.Long" value="1603523165777"/>
+            </additionalInformation>
+        </frame>
+        <frame name="P2">
+            <transformation a="0.0" b="0.0" c="0.0" x="0.0" y="0.0" z="0.0"/>
+            <additionalInformation>
+                <info key="LastModificationTime" type="java.lang.Long" value="1603523172736"/>
+            </additionalInformation>
+        </frame>
+        <frame name="P3">
+            <transformation a="0.0" b="0.0" c="0.0" x="0.0" y="0.0" z="0.0"/>
+            <additionalInformation>
+                <info key="LastModificationTime" type="java.lang.Long" value="1603523174478"/>
+            </additionalInformation>
+        </frame>
+        <frame name="P4">
+            <transformation a="0.0" b="0.0" c="0.0" x="0.0" y="0.0" z="0.0"/>
+            <additionalInformation>
+                <info key="LastModificationTime" type="java.lang.Long" value="1603523175860"/>
+            </additionalInformation>
+        </frame>
     </world>
     <processDataContainer>
         <processData dataType="java.lang.String" defaultValue="iiwa" displayName="Robot Name" editableOnHmi="true" id="robot_name" value="iiwa"/>
